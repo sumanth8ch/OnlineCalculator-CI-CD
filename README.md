@@ -1,9 +1,12 @@
-This a flask-based online calculator. 
-It performs the operations: 
+In this project, Continous Integration(CI) is implemented using Git as well as CI/CD is also implemented using Jenkins.
+
+This a flask-based online calculator based on REST API implemented by integrating different Microservices. 
+It performs the microservices like: 
 1)addition - add 
 2)subtraction - sub 
 3)multiplication - mul 
 4)division - div 
+The number of services can be added/removed and scaled up/down as per the requirement.
 
 First run the main.py script on command line using: 
 --------> python main.py 
