@@ -3,7 +3,7 @@ pipeline {
     stages { 
         stage('Build') {
            steps {
-                echo 'Starting build"
+                echo 'Starting build "
                 sh "/root/.local/bin/virtualenv -p /usr/bin/python3 work"
                 sh "source work/bin/activate"
                 sh "pip3 install -r requirements.txt"
