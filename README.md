@@ -1,6 +1,7 @@
 
 
-This a flask-based online calculator. It performs the operations: 
+This a flask-based online calculator. 
+It performs the operations: 
 1)addition - add 
 2)subtraction - sub 
 3)multiplication - mul 
