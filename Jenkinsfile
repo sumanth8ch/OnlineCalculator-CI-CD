@@ -19,7 +19,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Starting deployment '
-                sh "FLASK_APP=main.py /usr/local/bin/flask run"
+                sh "FLASK_APP=main.py /usr/local/bin/flask run &"
             }
         }
         stage('Release') {
