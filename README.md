@@ -1,5 +1,3 @@
-
-
 This a flask-based online calculator. 
 It performs the operations: 
 1)addition - add 
