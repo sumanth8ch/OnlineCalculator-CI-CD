@@ -1,4 +1,6 @@
 In this project, Continous Integration(CI) is implemented using Git as well as CI/CD is also implemented using Jenkins.
+The CI implementation using Git is done based on the python-package.yml file in .github/workflows directory.
+CI/CD pipeline is created based on the Jenkinsfile to be implemented using the Jenkins server.
 
 This a flask-based online calculator based on REST API implemented by integrating different Microservices. 
 It performs the microservices like: 
